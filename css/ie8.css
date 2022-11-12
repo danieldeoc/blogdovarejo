@@ -1,0 +1,10 @@
+.introMsg               { margin-top: 0}
+.servicoLinha           { width: 32%}
+.pesquisaBox            { margin-right: 1%}
+.detalhesset            { display: none}
+.noticiasCartorio       { background:none}
+
+html					{ margin-top:52px}
+.atualizeIe8						{ display:block !important; position:fixed; top:0; left:0; right:0; padding:5px; background:#d60000; color:#fff; text-align:center; width:100%; z-index:10000000000000}
+.atualizeIe8 img					{ width:30px; display:inline}
+.site								{ margin-top:45px}

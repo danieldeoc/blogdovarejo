@@ -1,0 +1,140 @@
+
+.saveLine				{ display:block; clear:both; margin:15px 0 0; padding:15px 0; border-top:1px solid #e5e5e5}
+
+
+.titleSection			{ padding:15px; font-size:24px; letter-spacing:-0.05em; text-transform:uppercase; color:#666; border:1px solid #ccc;
+						-webkit-border-radius: 6px 6px 0 0; border-radius: 6px 6px 0 0;
+						margin:15px 0 0;
+						background: rgb(255,255,255); /* Old browsers */
+						background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+						background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+						background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+						background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+						background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+}
+
+.bodySection			{ border:1px solid #ccc; background:#e5e5e5; padding:10px; 
+						-webkit-border-radius: 0 0 6px 6px; border-radius: 0 0 6px 6px}
+						
+.bodySection label	{ display:block; padding-top:25px}
+.bodySection input[type=text],
+.bodySection input[type=email],
+.bodySection textarea,
+.bodySection input[type=password]	{ display:block; width:100%; padding:7px; -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box; box-sizing: border-box}
+
+
+
+/* ################################################## */
+/* ################################################## */
+/* COLUNAS */
+/* ################################################## */
+/* ################################################## */
+.duasColunas		{ float:left; width:48%; margin:0 1%}
+
+
+/* ################################################## */
+/* ################################################## */
+/* EXP - EXPANDER CONTENT */
+/* ################################################## */
+/* ################################################## */
+
+.tituloConteudo,
+.expandTitle			{ padding:10px; font-size:16px; text-transform:uppercase; color:#666; border:1px solid #ccc;
+						-webkit-border-radius: 6px; border-radius: 6px;
+						cursor:pointer; margin:15px 0 0;
+						background: rgb(255,255,255); /* Old browsers */
+						background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(229,229,229,1) 100%); /* FF3.6+ */
+						background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(229,229,229,1))); /* Chrome,Safari4+ */
+						background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Chrome10+,Safari5.1+ */
+						background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* Opera 11.10+ */
+						background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* IE10+ */
+						background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(229,229,229,1) 100%); /* W3C */
+}
+
+.expandTitle:hover		{ background:#936; color:#fff}
+
+.contentExpand			{ padding:15px; display:none; background:#fafafa; margin-bottom:15px}
+
+
+.tituloConteudo			{ cursor:default; -webkit-border-radius: 6px 6px 0 0  ; border-radius: 6px 6px 0 0; border:1px solid #ccc; border-bottom:none}
+.caixaconteudo			{ padding:15px; background:#fafafa; margin-bottom:15px; border:1px solid #ccc}
+
+.caixaconteudo label	{ display:block; padding:5px 0}
+
+.caixaconteudo label .input	{ width:100%; display:block; box-sizing:border-box; padding:10px}
+.caixaconteudo label .textarea { width:100%; display:block; box-sizing:border-box; padding:10px; min-height:300}
+/* ################################################## */
+/* ################################################## */
+/* FORM RADIO BUTTONS */
+/* ################################################## */
+/* ################################################## */
+
+.radioLabel				{ display:block}
+.radioLabel strong		{ display:block; padding-bottom:10px}
+.radioLabel label		{ display:inline-block; padding:0 5px 5px 0}
+
+input[type=range]		{ width:100%; padding:0}
+
+
+/* ################################################## */
+/* ################################################## */
+/* PREVIEW DE IMAGEM */
+/* ################################################## */
+/* ################################################## */
+.selecMedia				{ position:relative; padding-right:150px; padding-bottom:10px}
+.selecMedia .buttonFile	{ position:absolute; right:20px; top:0; width:130px; padding:8px 15px}
+
+
+.previewImg				{ display:block; border:1px solid #e5e5e5; background:#f2f2f2; -moz-border-radius:4px; border-radius:4px; padding:15px; text-align:center}
+
+.previewImg img			{ max-width:100%; max-height:650px}
+
+
+/* ################################################## */
+/* ################################################## */
+/* MENSAGEMS */
+/* ################################################## */
+/* ################################################## */
+.mensagelist 			{ margin:5px 0}
+.mensagelist div		{ padding:10px; display:block; border:1px solid #3C0; background:#690; color:#fff; font-size:14px; text-align:left; -moz-border-radius:6px; border-radius:6px}
+.mensagelist div.error	{ background:#900; border-color:#F00}
+
+
+/* ################################################## */
+/* ################################################## */
+/* TABELA RESULTADOS */
+/* ################################################## */
+/* ################################################## */
+.listTable				{ background:#fff; width:100%; padding:0; margin:0;}
+
+.listTable caption		{ background:#fff; font-weight:300; padding:25px 20px; color:#999; font-size:22px; text-align:left; border-bottom:none}
+.listTable tfoot tr td,
+.listTable tr th		{ border-bottom:1px solid #f2f2f2; padding:14px; margin:0; background:#e5e5e5; text-align:left;
+						background: #F2F2F2; /* Old browsers */
+						font-family:Open Sans, Arial, Helvetica, sans-serif; font-weight:400}
+.listTable tr td		{ padding:14px 9px; margin:0; text-align:left}
+.listTable tr:hover td	{ background:#e5e5e5}
+.listTable tbody tr:nth-child(odd) {
+   background-color: #fafafa;
+}
+
+
+
+
+
+.subInfoBox				{ margin:15px 0; border:1px solid #e5e5e5; padding:15px; -moz-border-radius:8px; border-radius:8px; background:#fff}
+.subInfoBox > h4			{ background:#fafafa; border-bottom:1px solid #e5e5e5; margin:-15px -15px 0; padding:25px; font-size:18px}
+
+
+
+
+.pop-upDemonstrer		{ width:100%; height:650px; background:url(../images/printsite.jpg) top center no-repeat #121212; -moz-border-radius:6px;  border-radius:6px; position:relative; overflow:auto}
+
+.popupImg				{ position:absolute; left:50%; top:50%; margin:-25px 0 0 -150px }
+.popupText				{ position:absolute; left:50%; top:50%; width:300px; background:#fff; -moz-border-radius:6px;  border-radius:6px; padding:15px; -moz-box-sizing:border-box; box-sizing:border-box; 
+						-webkit-box-shadow: 0 1px 2px 2px rgba(0,0,0,0.2); box-shadow: 0 1px 2px 2px rgba(0,0,0,0.2); z-index:10000; text-align:center;}
+.popupImg .closePopup,
+.popupText .closePopup	{ position:absolute; width:35px; height:35px; cursor:pointer; background:#fff; -moz-border-radius:100%;  border-radius:100%; right:-15px; top:-15px;
+						z-index:10000; text-align:center; font-size:24px; font-weight:bold; line-height:29px; border:1px solid #e5e5e5}
